@@ -16,17 +16,16 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    @IBOutlet weak var label: UILabel! // put every time if not connectect you can see it b crash
+    @IBOutlet weak var label: UILabel! // put every time "!" if not connectect you can see it will crash
     
     var mass = [1,2,2,3,3,5,5,5,7,7];
     let qosInitiated = Int(QOS_CLASS_USER_INITIATED.value)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+ 
         
-         //label.text = "hello"
-        
+          //label.text = "hello"
          //self.testGCD()
          //self.fibonacci()
          //self.avg(mass);
@@ -37,13 +36,9 @@ class FirstViewController: UIViewController {
     func getDataFromEmptyArr() {
         
         var emptyArr = Array<Int>();
-        println(emptyArr.count)
-       
-       //  assert(emptyArr.count > 0, "Array is empty!");
-       
-       
+        //println(emptyArr.count)
+         assert(emptyArr.count > 0, "Array is empty!");
         //var num = emptyArr[0];
-        
     }
     
     // Fibonacci
