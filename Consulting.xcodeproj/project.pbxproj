@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4F862E1B55536C003E3504 /* PlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F862D1B55536C003E3504 /* PlayListModel.swift */; };
+		EA4F86311B5553DA003E3504 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F86301B5553DA003E3504 /* Song.swift */; };
+		EA4F86331B555595003E3504 /* CalculationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F86321B555595003E3504 /* CalculationHelper.swift */; };
+		EA994E411B57ADEA00256072 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA994E401B57ADEA00256072 /* 1.jpg */; };
+		EA994E471B57BC5600256072 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA994E461B57BC5600256072 /* Defaults.swift */; };
+		EAB0AED51B554712005AADD7 /* ServerApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0AED41B554712005AADD7 /* ServerApi.swift */; };
+		EAB0AEDA1B554737005AADD7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0AED71B554737005AADD7 /* FirstViewController.swift */; };
+		EAB0AEDB1B554737005AADD7 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0AED81B554737005AADD7 /* ModalViewController.swift */; };
+		EAB0AEDC1B554737005AADD7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0AED91B554737005AADD7 /* SecondViewController.swift */; };
+		EAB0AEDF1B554884005AADD7 /* BaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0AEDE1B554884005AADD7 /* BaseHelper.swift */; };
 		EAF6AEC01B4E90A100FDA811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AEBF1B4E90A100FDA811 /* AppDelegate.swift */; };
-		EAF6AEC21B4E90A100FDA811 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AEC11B4E90A100FDA811 /* FirstViewController.swift */; };
-		EAF6AEC41B4E90A100FDA811 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AEC31B4E90A100FDA811 /* SecondViewController.swift */; };
 		EAF6AEC71B4E90A100FDA811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF6AEC51B4E90A100FDA811 /* Main.storyboard */; };
 		EAF6AEC91B4E90A100FDA811 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF6AEC81B4E90A100FDA811 /* Images.xcassets */; };
 		EAF6AECC1B4E90A100FDA811 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAF6AECA1B4E90A100FDA811 /* LaunchScreen.xib */; };
@@ -27,11 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA4F862D1B55536C003E3504 /* PlayListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayListModel.swift; path = Models/PlayListModel.swift; sourceTree = "<group>"; };
+		EA4F86301B5553DA003E3504 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Song.swift; path = DataModel/Song.swift; sourceTree = "<group>"; };
+		EA4F86321B555595003E3504 /* CalculationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculationHelper.swift; path = Helpers/CalculationHelper.swift; sourceTree = "<group>"; };
+		EA994E401B57ADEA00256072 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = Images/1.jpg; sourceTree = "<group>"; };
+		EA994E461B57BC5600256072 /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		EAB0AED41B554712005AADD7 /* ServerApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerApi.swift; path = Services/ServerApi.swift; sourceTree = "<group>"; };
+		EAB0AED71B554737005AADD7 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ViewControllers/FirstViewController.swift; sourceTree = "<group>"; };
+		EAB0AED81B554737005AADD7 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalViewController.swift; path = ViewControllers/ModalViewController.swift; sourceTree = "<group>"; };
+		EAB0AED91B554737005AADD7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ViewControllers/SecondViewController.swift; sourceTree = "<group>"; };
+		EAB0AEDE1B554884005AADD7 /* BaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseHelper.swift; path = Helpers/BaseHelper.swift; sourceTree = "<group>"; };
 		EAF6AEBA1B4E90A100FDA811 /* Consulting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Consulting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF6AEBE1B4E90A100FDA811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF6AEBF1B4E90A100FDA811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EAF6AEC11B4E90A100FDA811 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EAF6AEC31B4E90A100FDA811 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		EAF6AEC61B4E90A100FDA811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAF6AEC81B4E90A100FDA811 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EAF6AECB1B4E90A100FDA811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -58,6 +74,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA4F862C1B555343003E3504 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F862D1B55536C003E3504 /* PlayListModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EA4F862F1B5553C6003E3504 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F86301B5553DA003E3504 /* Song.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		EA994E3F1B57ACCA00256072 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA994E401B57ADEA00256072 /* 1.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EAB0AECF1B554692005AADD7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EAB0AED41B554712005AADD7 /* ServerApi.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		EAB0AED61B55471F005AADD7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAB0AED71B554737005AADD7 /* FirstViewController.swift */,
+				EAB0AED81B554737005AADD7 /* ModalViewController.swift */,
+				EAB0AED91B554737005AADD7 /* SecondViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EAB0AEDD1B554867005AADD7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAB0AEDE1B554884005AADD7 /* BaseHelper.swift */,
+				EA4F86321B555595003E3504 /* CalculationHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		EAF6AEB11B4E90A100FDA811 = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +146,14 @@
 		EAF6AEBC1B4E90A100FDA811 /* Consulting */ = {
 			isa = PBXGroup;
 			children = (
+				EA994E3F1B57ACCA00256072 /* Images */,
+				EA4F862F1B5553C6003E3504 /* DataModel */,
+				EA4F862C1B555343003E3504 /* Models */,
+				EAB0AEDD1B554867005AADD7 /* Helpers */,
+				EAB0AED61B55471F005AADD7 /* ViewControllers */,
+				EAB0AECF1B554692005AADD7 /* Services */,
 				EAF6AEBF1B4E90A100FDA811 /* AppDelegate.swift */,
-				EAF6AEC11B4E90A100FDA811 /* FirstViewController.swift */,
-				EAF6AEC31B4E90A100FDA811 /* SecondViewController.swift */,
+				EA994E461B57BC5600256072 /* Defaults.swift */,
 				EAF6AEC51B4E90A100FDA811 /* Main.storyboard */,
 				EAF6AEC81B4E90A100FDA811 /* Images.xcassets */,
 				EAF6AECA1B4E90A100FDA811 /* LaunchScreen.xib */,
@@ -201,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF6AEC71B4E90A100FDA811 /* Main.storyboard in Resources */,
+				EA994E411B57ADEA00256072 /* 1.jpg in Resources */,
 				EAF6AECC1B4E90A100FDA811 /* LaunchScreen.xib in Resources */,
 				EAF6AEC91B4E90A100FDA811 /* Images.xcassets in Resources */,
 			);
@@ -220,9 +293,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF6AEC41B4E90A100FDA811 /* SecondViewController.swift in Sources */,
+				EA4F862E1B55536C003E3504 /* PlayListModel.swift in Sources */,
+				EAB0AEDB1B554737005AADD7 /* ModalViewController.swift in Sources */,
+				EA4F86331B555595003E3504 /* CalculationHelper.swift in Sources */,
+				EAB0AEDA1B554737005AADD7 /* FirstViewController.swift in Sources */,
+				EA4F86311B5553DA003E3504 /* Song.swift in Sources */,
+				EAB0AEDF1B554884005AADD7 /* BaseHelper.swift in Sources */,
+				EAB0AED51B554712005AADD7 /* ServerApi.swift in Sources */,
+				EA994E471B57BC5600256072 /* Defaults.swift in Sources */,
+				EAB0AEDC1B554737005AADD7 /* SecondViewController.swift in Sources */,
 				EAF6AEC01B4E90A100FDA811 /* AppDelegate.swift in Sources */,
-				EAF6AEC21B4E90A100FDA811 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

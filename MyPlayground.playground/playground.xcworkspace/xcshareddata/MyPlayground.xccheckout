@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F002FB31-73D4-4C2C-AC3D-0FF2699F4BD4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyPlayground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E0AB8493E8FB563B5C7D9AD9B59A8BC1ABF49F2</key>
+		<string>https://github.com/svetlanama/consulting</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyPlayground.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E0AB8493E8FB563B5C7D9AD9B59A8BC1ABF49F2</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/svetlanama/consulting</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E0AB8493E8FB563B5C7D9AD9B59A8BC1ABF49F2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E0AB8493E8FB563B5C7D9AD9B59A8BC1ABF49F2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>consulting</string>
+		</dict>
+	</array>
+</dict>
+</plist>
